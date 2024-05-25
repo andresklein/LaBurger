@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBURGER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="menu container" id="navbar">
+            <a href="#" class="logo"><i class="fa-solid fa-burger-cheese fa-2xl"></i></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#"><i class="fa-light fa-magnifying-glass fa-lg"></i></a></li>
+                    <li><a href="user.html"><i class="fa-light fa-user fa-lg"></i></a></li> 
+                    <li><a href="#"><i class="fa-light fa-bag-shopping fa-lg"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars fa-lg"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="menu2 container" id="navbar2">
+            <nav class="navbar2">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp fa-xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                    <li><a href="http://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a></li> 
+                    <li><a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>LA BURGER QUE NO TE CLAVA</h1>
+                <p>
+                    Si quere saber mas, metele al boton de abajo para ver las burgers que van.
+                </p>
+                <button class="btn-1" onclick="scrollToSection()">
+                    <span class="hover-underline-animation"> COMPRAR AHORA </span>
+                    <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+                        <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="header-img">
+                <img src="" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="recuadro">
+        
+    <section class="information" id="information">
+        <div class="information-content container">
+            <div class="information-txt">
+                <h2>LAS BURGERS QUE MAS SALEN ESTAN ACA</h2> 
+                <p>
+                    Elegí la que quieras que te llevas las fritangas de regalo.
+                </p>
+            </div>
+            <div class="information-box">
+                <div class="card-1">
+                    <img src="images/burger1.png" alt="">
+                    <h3>Cheese burger</h3>
+                    <p>pan, carne, queso, pan</p>
+                    <div class="card-footer">
+                        <span class="text-title">$499.49</span>
+                        <div class="card-button" id="card-button">
+                          <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                </div>
+                <div class="card-1">
+                    <img src="images/burger1.png" alt="">
+                    <h3>Cheese burger</h3>
+                    <p>pan, carne, queso, pan</p>
+                    <div class="card-footer">
+                        <span class="text-title">$499.49</span>
+                        <div class="card-button" id="card-button2">
+                          <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                </div>
+                <div class="card-1">
+                    <img src="images/burger1.png" alt="">
+                    <h3>Cheese burger</h3>
+                    <p>pan, carne, queso, pan</p>
+                    <div class="card-footer">
+                        <span class="text-title">$499.49</span>
+                        <div class="card-button" id="card-button">
+                          <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                </div>
+                <div class="card-1">
+                    <img src="images/burger1.png" alt="">
+                    <h3>Cheese burger</h3>
+                    <p>pan, carne, queso, pan</p>
+                    <div class="card-footer">
+                        <span class="text-title">$499.49</span>
+                        <div class="card-button" id="card-button">
+                          <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                </div>
+                <div class="card-1">
+                    <img src="images/burger1.png" alt="">
+                    <h3>Cheese burger</h3>
+                    <p>pan, carne, queso, pan</p>
+                    <div class="card-footer">
+                        <span class="text-title">$499.49</span>
+                        <div class="card-button" id="card-button">
+                          <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+                            <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+                            <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app" id="app">
+        <div class="app-content container">
+            <div class="app-grid">
+            <div class="app-img">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1551987840-f62d9c74ae78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=681&q=80" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem rem ratione, iusto aliquam corrupti perspiciatis voluptatum magnam maiores dignissimos hic, dolor distinctio labore blanditiis nobis, vel iste molestias quasi est?</p>
+                    </div>
+            </div>
+            <div class="app-img">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=699&q=80" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio iusto veritatis vitae error dolores, aspernatur, nesciunt voluptas cum reprehenderit suscipit voluptates aperiam non nisi ullam. Sed odit nobis harum!</p>
+                    </div>
+            </div>
+            <div class="app-img">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=768&q=80" alt="">
+                    <p class="hover-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae vitae culpa cupiditate officiis incidunt provident adipisci excepturi, minus nobis! Quis, atque distinctio? Corporis beatae necessitatibus sit voluptatem odit rerum ratione.</p>
+                    </div>
+            </div>
+            <div class="app-img">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=815&q=80" alt="">
+                    <p class="hover-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quos iusto delectus voluptatibus doloribus, nam facilis, possimus ducimus, cum architecto amet alias pariatur. Sint numquam beatae tempore, labore magni iste.</p>
+                    </div>
+            </div>
+        </div>
+            <div class="app-txt">
+                <h2>Queres el descuento que va? Metele</h2>
+                <form class="discountForm">
+                    <span class="DiscountHeading">AGARRA EL 10%</span>
+                    <p class="DiscountSubheading">Aca está tu descuento! El codigo te va a llegar por mail.</p>
+                    <div class="inputContainer">
+                      <input placeholder="Escriba su email" type="email" name="email" id="email-address">
+                      <button type="submit" class="submitButton">CUPON!</button>
+                    </div>
+                       <button class="exitBtn">×</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="general">
+        <div class="general-content container">
+            <div class="general-img">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=699&q=80" alt="">
+                <span class="centered-button">La clasica</span>
+            </div>
+            <div class="general-img">
+                <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=815&q=80" alt="">
+                <span class="centered-button">La Cheese burger</span>
+            </div>
+            <div class="general-img">
+                <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=768&q=80" alt="">
+                <span class="centered-button">La Cheese burger</span>
+            </div>
+            <div class="general-img">
+                <img src="https://images.unsplash.com/photo-1551987840-f62d9c74ae78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=681&q=80" alt="">
+                <span class="centered-button">De la casa</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-content container">
+            <h2>Contactanos para reservar tu burga</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid laudantium iste autem laboriosam magni officia a modi itaque veniam assumenda inventore voluptatum, temporibus enim. Nam alias ad accusamus temporibus?</p>
+            <a href="#" class="btn-1">Informacion</a>
+        </div>
+    </section>
+</div>
+
+<!--
+    <footer class="footer">
+
+        <div class="footer-content container">
+            
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <a href="#">lorem</a>
+                
+            </div>
+
+        </div>
+
+    </footer>
+-->
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
